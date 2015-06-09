@@ -1538,7 +1538,7 @@ void InitVectorStructs()
     vectorStructs.Push(VectorStruct("SplinePath", "Control Points", splinePathInstanceVariables, 1));
 
     Array<String> crowdManagerFilterTypeVariables = {
-        "Filter Type Count",
+        "Query Filter Type Count",
         "   Include Flags",
         "   Exclude Flags",
         "   >AreaCost"
